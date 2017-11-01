@@ -4,7 +4,7 @@ This repository contains the sample code from the MLH Localhost: Intro to GraphQ
 
 ## Sample Code / Downloads
 
- - Star Trek App - [Demo][4] / [Source][1] / [Download][2]
+ - Snake 2000 App - [Demo][4] / [Source][1] / [Download][2]
 
 ## License
 
