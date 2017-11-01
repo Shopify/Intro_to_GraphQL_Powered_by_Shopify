@@ -1,0 +1,126 @@
+/**
+ * Shopify Snake Stylesheet
+ */
+
+/* General page styles */
+body {
+  background-color: #f7f9f9;
+  color: black;
+  font-family: monospace;
+}
+#container {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#container h1 {
+  font-size: 72px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+#container h2 {
+  font-weight: 400;
+  margin: 0;
+}
+#footer {
+  color: #aea9a9;
+  margin-top: 35px;
+}
+
+/* Banner styles */
+#banner {
+  background: #2756a9;
+  height: 10px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#banner::after {
+  background: #e5d020;
+  right: 0;
+}
+#banner::before {
+  background: #c8393e;
+  left: 0;
+}
+#banner::after,
+#banner::before {
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 0;
+  width: 33%;
+}
+
+/* Header section styles */
+#header {
+  margin: auto;
+  max-width: 1080px;
+  padding: 30px 10px;
+}
+
+#header img {
+  height: 32px;
+}
+
+/* Game section styles */
+#game {
+  border: 2px solid #c7c7c7;
+  border-radius: 2px;
+}
+#game-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+#game-score {
+  color: #727272;
+  font-size: 16px;
+  font-weight: bold;
+}
+#game-powers img {
+  height: 16px;
+}
+
+/* Store section styles */
+#store {
+  margin: 25px auto;
+}
+#store h3 {
+  font-size: 24px;
+}
+#products {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+  justify-content: center;
+}
+#products .product-card:first-child {
+  margin-left: 0;
+}
+
+#products .product-card {
+  background: #f6f6f6;
+  border: 2px solid #f1f1f1;
+  border-radius: 2px;
+  color: #727272;
+  cursor: pointer;
+  margin-left: 25px;
+  padding: 30px 10px;
+  text-align: center;
+  width: 110px;
+}
+#products .title {
+  font-weight: bold;
+}
+#products .cost {
+  font-weight: normal;
+}
+#products .power-up {
+  color: white;
+  object-fit: contain;
+  text-align: center;
+}

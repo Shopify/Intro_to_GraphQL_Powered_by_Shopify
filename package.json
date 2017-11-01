@@ -1,0 +1,20 @@
+{
+  "name": "mlh-localhost-shopify",
+  "version": "0.0.1",
+  "description": "The sample app to accompany the MLH Localhost: Intro to GraphQL with the Shopify Storefront API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MLH",
+    "Localhost",
+    "Shopify",
+    "GraphQL"
+  ],
+  "author": "Major League Hacking <hi@mlh.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
