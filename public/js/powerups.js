@@ -28,7 +28,7 @@ $(document).ready(function() {
     products.forEach(function(product) {
       var title = product.node.title;
       var variantId = product.node.variants.edges[0].node.id;
-      var imageSrc = product.node.images.edges[0].node.src;
+      var imageSrc = product.node.images.edges[0].node.originalSrc;
       var $productDiv = createProductCard(title, imageSrc, variantId);
 
       $productDiv.click(function(event) {
